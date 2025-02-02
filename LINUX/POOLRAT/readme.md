@@ -14,7 +14,7 @@ POOLRAT saves its configuration to a hardcoded config file at `/etc/apdl.cf`, wh
 ![alt text](image.png)
 
 ### **Python3**
-You can use the Python script https://github.com/adhikara13/Malvares/blob/main/Linux/POOLRAT/config_extractor.py to decrypt POOLRAT’s configuration file.  
+You can use the Python script https://github.com/adhikara13/Malvares/blob/main/Linux/POOLRAT/scripts/config_extractor.py to decrypt POOLRAT’s configuration file.  
 - By default, it will try to extract the config from **`/etc/apdl.cf`**.  
 - You can also specify a different file using the **`--file`** flag.
 
